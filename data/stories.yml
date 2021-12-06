@@ -28,3 +28,33 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: what is corona
+  steps:
+    - intent: corona_intro
+    - action: utter_corona_intro
+
+- story: how does corona spread
+  steps:
+    - intent: corona_spread
+    - action: utter_corona_spread
+
+- story: corona food spread
+  steps:
+    - intent: corona_food_spread
+    - action: utter_corona_food_spread
+
+- story: warm weather effects
+  steps:
+    - intent: warm_weather
+    - action: utter_warm_weather
+
+- story: have high risk
+  steps:
+    - intent: high_risk
+    - action: utter_high_risk
+
+- story: how to prevent
+  steps:
+    - intent: prevention
+    - action: utter_prevention
