@@ -11,6 +11,9 @@ intents:
   - corona_intro
   - corona_spread
   - corona_food_spread
+  - warm_weather
+  - high_risk
+  - prevention
 
 responses:
   utter_greet:
@@ -31,6 +34,43 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_corona_intro:
+  - text: "COVID-19 is a disease caused by a virus called SARS-CoV-2. Most people with COVID-19 have mild symptoms, but some people can become severely ill. Although most people with COVID-19 get better within weeks of illness, some people experience post-COVID conditions. Post-COVID conditions are a wide range of new, returning, or ongoing health problems people can experience more than four weeks after first being infected with the virus that causes COVID-19. Older people and those who have certain underlying medical conditions are more likely to get severely ill from COVID-19. Vaccines against COVID-19 are safe and effective."
+
+  utter_corona_spread:
+  - text: "COVID-19 spreads when an infected person breathes out droplets and very small particles that contain the virus. These droplets and particles can be breathed in by other people or land on their eyes, noses, or mouth. In some circumstances, they may contaminate surfaces they touch. People who are closer than 6 feet from the infected person are most likely to get infected.
+
+COVID-19 is spread in three main ways:
+
+Breathing in air when close to an infected person who is exhaling small droplets and particles that contain the virus.
+Having these small droplets and particles that contain virus land on the eyes, nose, or mouth, especially through splashes and sprays like a cough or sneeze.
+Touching eyes, nose, or mouth with hands that have the virus on them"
+
+  utter_corona_food_spread:
+  - text: "Corona viruses are generally thought to be spread from person-to-person through
+          respiratory droplets. Currently there is no evidence to support transmission of COVID-19
+          associated with food. Before preparing or eating food it is important to always wash your hands with soap and water for 20 seconds for general food
+          safety. Throughout the day wash your hands after blowing your nose, couhing or
+          sneezing, or going to the bathroom."
+
+  utter_warm_weather:
+  - text: "It is not yet known whether weather and temperature impact the spread of
+          COVID-19. Some other viruses, like the common cold and flu, spread more during
+          cold weather months but that does not mean it is impossible to become sick with
+          these viruses during other months. At this time, it is not known whether the spread of COVID-19 will decrease when weather becomes warmer.
+          There is much more to learn about the transmissibility, severity, and other features associated with
+          COVID-19 and investigations are going."
+
+  utter_high_risk:
+  - text: "Older adults and people of any age who have serious underlying medical conditions
+          may be at higher risk for more serious complications from COVID-19. These people
+          who may be at a higher risk of getting very sick from this illness, includes;
+          Older adults, people who have serious underlying medical conditions like...
+          Heart disease, Diabetes, Lung disease, etc."
+
+  utter_prevention:
+  - text: "Handwashing is one of the best ways to protect yourself and your family from getting sick. Wash your hands often with soap and water for at least 20 seconds, especially after blowing your nose, coughing, or sneezing; going to the bathroom; and before eating or preparing food. If soap and water are not readily available, use an alcohol-based hand sanitizer with at least 60% alcohol."
 
 session_config:
   session_expiration_time: 60
