@@ -91,3 +91,44 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: corona_intro
+  examples: |
+    - what is corona virus
+    - what is covid
+    - what is a novel corona virus
+    - what is covid-19
+    - tell me about corona
+    - can you tell me about covid
+
+- intent: corona_spread
+  examples: |
+    - how does corona virus spread
+    - how does the virus spread
+    - how does covid spread
+
+- intent: corona_food_spread
+  examples: |
+    - how does corona spread from food
+    - can corona transmit through air
+    - can corona transmit through physical contact
+    - does corona spread from food
+    - how will corona spread from food
+
+- intent: warm_weather
+  examples: |
+    - will warm weather stop the spread
+    - will it stop with warm weather
+    - will warm weather increase the spread
+
+- intent: high_risk
+  examples: |
+    - who is at a higher risk of infection
+
+- intent: prevention
+  examples: |
+    - how can i protect myself
+    - how to protect myself
+    - how can i get rid of it
+    - how can i stay uneffected
+    - what to do if sick
